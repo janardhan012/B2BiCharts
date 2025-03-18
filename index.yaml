@@ -4,8 +4,8 @@ entries:
   - annotations:
       charts.openshift.io/name: IBM Sterling B2B Integrator
     apiVersion: v2
-    appVersion: 6.2.0.5
-    created: "2025-03-17T17:41:00.382825104+05:30"
+    appVersion: 6.2.1.0
+    created: "2025-03-18T11:04:29.730946662+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -15,7 +15,7 @@ entries:
       condition: documentService.enabled
       name: ibm-document-service-prod
       repository: ""
-      version: 1.0.7
+      version: 1.1.0
     description: IBM Sterling B2B Integrator helps companies integrate complex B2B
       EDI processes with their partner communities. Organizations get a single, flexible
       B2B platform that supports most communication protocols, helps secure your B2B
@@ -25,7 +25,7 @@ entries:
       while providing governance and visibility over those processes. Documentation
       For additional details regarding install parameters check https://www.ibm.com/docs/en/b2b-integrator/6.2.0?topic=integrator-installing-sterling-b2b-using-certified-container.
       License By installing this product you accept the license terms https://ibm.biz/B2Bi_62
-    digest: 8b82328f166fd99200cab61498a41b6e9c227a9660d431ffc879cc181ca274d9
+    digest: d119bb9517e6a0e838e6ee54aea78b2fc4311e2bd01a811d025c2d4cfa795ceb
     home: https://www.ibm.com/docs/en/b2b-integrator/6.2.0
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-b2bi-icon.png
     keywords:
@@ -40,20 +40,20 @@ entries:
     - Automation
     - RHOCP
     - Other
-    kubeVersion: '>=1.28'
+    kubeVersion: '>=1.27'
     maintainers:
     - name: IBM
     name: ibm-b2bi-prod
     type: application
     urls:
-    - ibm-b2bi-prod-3.0.7.tgz
-    version: 3.0.7
+    - ibm-b2bi-prod-3.1.0.tgz
+    version: 3.1.0
   ibm-sfg-prod:
   - annotations:
       charts.openshift.io/name: IBM Sterling B2B Integrator
     apiVersion: v2
-    appVersion: 6.2.0.5
-    created: "2025-03-17T17:41:00.42582437+05:30"
+    appVersion: 6.2.1.0
+    created: "2025-03-18T11:04:29.77381157+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -63,7 +63,7 @@ entries:
       condition: documentService.enabled
       name: ibm-document-service-prod
       repository: ""
-      version: 1.0.7
+      version: 1.1.0
     description: IBM Sterling B2B Integrator helps companies integrate complex B2B
       EDI processes with their partner communities. Organizations get a single, flexible
       B2B platform that supports most communication protocols, helps secure your B2B
@@ -73,7 +73,7 @@ entries:
       while providing governance and visibility over those processes. Documentation
       For additional details regarding install parameters check https://www.ibm.com/docs/en/b2b-integrator/6.2.0?topic=integrator-installing-sterling-b2b-using-certified-container.
       License By installing this product you accept the license terms https://ibm.biz/B2Bi_62
-    digest: c9d8ced25a073184a6d7d750a5aa6954e1e175fb0ed310f3cd2272b16fced59c
+    digest: 40249d77fb4cde829ab8b3dc0c2ac65c300055c6d370c755d4e10c5bdeff6c75
     home: https://www.ibm.com/docs/en/b2b-integrator/6.2.0
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-b2bi-icon.png
     keywords:
@@ -88,12 +88,12 @@ entries:
     - Automation
     - RHOCP
     - Other
-    kubeVersion: '>=1.28'
+    kubeVersion: '>=1.27'
     maintainers:
     - name: IBM
     name: ibm-sfg-prod
     type: application
     urls:
-    - ibm-sfg-prod-3.0.7.tgz
-    version: 3.0.7
-generated: "2025-03-17T17:41:00.336887719+05:30"
+    - ibm-sfg-prod-3.1.0.tgz
+    version: 3.1.0
+generated: "2025-03-18T11:04:29.690729475+05:30"
